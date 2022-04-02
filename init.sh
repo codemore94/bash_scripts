@@ -10,3 +10,8 @@ CURRENTUSER=$(whoami)
 IPADDRESS=$(hostname -I | cut -d ' ' -f1)
 echo $(IPADDRESS)
 
+#Print messages 
+echo "Today is $CURRENTUSER" "using this device with $IPADDRESS" ip-address
+
+
+
