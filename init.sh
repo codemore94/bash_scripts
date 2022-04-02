@@ -6,3 +6,7 @@ HOST=$(hostname)
 #User executing the script
 CURRENTUSER=$(whoami)
 
+#Host ip address:
+IPADDRESS=$(hostname -I | cut -d ' ' -f1)
+echo $(IPADDRESS)
+
