@@ -13,5 +13,9 @@ echo $(IPADDRESS)
 #Print messages 
 echo "Today is $CURRENTUSER" "using this device with $IPADDRESS" ip-address
 
+awk '/name/ {print} info.json'
+#python -m info.json jsontool
+#module import jsontool
+cat  info.json
 
 
