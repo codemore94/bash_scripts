@@ -18,4 +18,6 @@ awk '/name/ {print} info.json'
 #module import jsontool
 cat  info.json
 
+ls   | awk '{printf "\n %x\n",NR, $1}' | od | awk '/005061/ {print}' | grep "7"
+
 
