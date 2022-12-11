@@ -1,0 +1,3 @@
+cp -r test_add.js
+help_test.js
+test_add.js~
